@@ -12,11 +12,12 @@
     tools:context=".ProfilAct">
 
     <ImageView
+        android:id="@+id/gbr"
         android:layout_width="wrap_content"
         android:layout_height="230dp"
         android:layout_below="@+id/tv1"
         android:layout_marginTop="9dp"
-        android:layout_above="@+id/btnPhone"
+        android:layout_above="@+id/tv2"
         android:src="@drawable/me"
         />
 
@@ -31,6 +32,17 @@
         android:typeface="serif"
         android:textSize="20dp" />
 
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/btnPhone"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="Astri Tania Tsani"
+        android:typeface="serif"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/btnPhone"
@@ -45,8 +57,6 @@
         android:typeface="serif"
         android:onClick="phone"
         android:text="Phone" />
-
-
 
     <Button
         android:id="@+id/btnLocation"
